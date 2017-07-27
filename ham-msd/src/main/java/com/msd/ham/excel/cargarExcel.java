@@ -71,7 +71,7 @@ public class cargarExcel {
 			cXlsx.insertBulkVtas(vt, urlE, urlS, urlEr);
 
 		} catch (Exception e) {
-			System.out.println("Error cargarXlsxBulk ::::>> " + e.getMessage());
+			System.out.println("Error cargarXlsxBulk :::>> " + e.getMessage());
 			mD.moveFile(urlE, urlEr);
 		}
 	}
